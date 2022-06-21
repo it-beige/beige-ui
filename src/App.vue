@@ -6,9 +6,9 @@ import Test from "./components/Test";
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <Test />
-  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
+  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 
 <style>
