@@ -4,7 +4,7 @@
 :::demo 按钮用来触发一些操作。
 ```vue
 <template>
-  <HelloWorld />
+  <BgButton tag="div">文本</BgButton>
 </template>  
 ``` 
 :::

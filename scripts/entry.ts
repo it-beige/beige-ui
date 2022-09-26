@@ -5,11 +5,13 @@
 */
 import type { App } from 'Vue'
 import ButtonPlugin, { Button } from '../src/button'
+import TreePlugin, { Tree } from '../src/tree'
 import version from '../src/version'
 
 export { Button }
+export { Tree }
 
-const plugins = [ButtonPlugin]
+const plugins = [ButtonPlugin, TreePlugin]
 
 export default {
   version,

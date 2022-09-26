@@ -2,6 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import VirtualList from './components/VirtualList.vue'
 import Test from './components/Test'
 const confirm = (e: Event) => {
   console.log(e)
@@ -17,6 +18,7 @@ const confirm = (e: Event) => {
   <bg-button type="primary" block size="large" disabled @click="confirm">
     large
   </bg-button>
+  <VirtualList />
 
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <!-- <Test /> -->

@@ -1,9 +1,10 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 // @import "./style/icon.scss";
 
 @import "button/style/button.scss";
+@import "tree/style/tree.scss";
 // @import "space/style/index.scss";
 // @import "input/style/index.scss";
 // @import "trigger/style/index.scss";
