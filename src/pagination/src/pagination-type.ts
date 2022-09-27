@@ -1,4 +1,4 @@
-import { PropType, ExtractPropTypes } from 'vue'
+import { ExtractPropTypes } from 'vue'
 
 export const props = {
   total: {
@@ -12,6 +12,10 @@ export const props = {
   pagerCount: {
     type: Number,
     default: 7
+  },
+  modelValue: {
+    type: Number,
+    default: 1
   }
 } as const
 export type Props = ExtractPropTypes<typeof props>

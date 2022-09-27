@@ -6,18 +6,12 @@ export function usePage(defaultPage = 1) {
   const setPageIndex = (current: number) => {
     pageIndex.value = current
   }
-
   const jumpPage = (page: number) => {
     pageIndex.value += page
   }
 
-  const nextPage = () => {
-    pageIndex.value++
-  }
-
-  const prevPage = () => {
-    pageIndex.value !== 1 && pageIndex.value--
-  }
+  const prevPage = () => jumpPage(-1)
+  const nextPage = () => jumpPage(1)
   return {
     pageIndex,
     setPageIndex,
