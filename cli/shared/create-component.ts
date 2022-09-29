@@ -1,4 +1,4 @@
-import { ensureDirSync, writeFileSync, ObjectEncodingOptions } from 'fs-extra'
+import { ensureDirSync, writeFileSync } from 'fs-extra'
 import { resolve } from 'path'
 import { lightBlue, lightGreen } from 'kolorist'
 import genCoreTemplate from '../template/core'
@@ -13,7 +13,7 @@ export interface ComponentMeta {
   category: string
 }
 
-const WRITE_FILE_OPTIONS: ObjectEncodingOptions = { encoding: 'utf-8' }
+const WRITE_FILE_OPTIONS = { encoding: 'utf-8' }
 
 export default function createComponent(meta: ComponentMeta) {
   const { name } = meta

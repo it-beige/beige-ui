@@ -3,7 +3,7 @@ exports.__esModule = true
 var utils_1 = require('./utils')
 // 创建组件核心文件模板
 function genCoreTemplate(name) {
-  var compName = 'Bg' + (0, utils_1.upperFirst)(name)
+  var compName = (0, utils_1.upperFirst)(name)
   var className = 's-' + name
   var propsFileName = ''.concat(name, '-type')
   return "\nimport { defineComponent, toRefs } from 'vue';\nimport { props, Props } from './"

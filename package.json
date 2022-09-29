@@ -17,6 +17,7 @@
     "build:components": "npm run gen-version && node ./scripts/build.js"
   },
   "dependencies": {
+    "async-validator": "^4.2.5",
     "vue": "^3.2.25"
   },
   "devDependencies": {
