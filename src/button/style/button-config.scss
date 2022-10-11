@@ -12,8 +12,9 @@
 */
 // 按钮类型的配置
 $type: (
-  defalut: (
-    background-color: $s-default
+  default: (
+    background-color: $s-default,
+    border-color: $s-line
   ),
   secondary: (
     color: $s-text,
@@ -39,8 +40,7 @@ $type: (
   ),
   error: (
     background-color: $s-error
-  ),
-  
+  )
 );
 
 // 伪类的配置

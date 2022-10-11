@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import VirtualList from './components/VirtualList.vue'
+import Modal from './components/modal.vue'
 import Test from './components/Test'
 const confirm = (e: Event) => {
   console.log(e)
@@ -10,7 +11,7 @@ const confirm = (e: Event) => {
 </script>
 
 <template>
-  <bg-button type="default" />
+  <!-- <bg-button type="default" />
   <bg-button type="primary" size="tiny" />
   <bg-button type="secondary" size="small"> small </bg-button>
   <bg-button type="text" />
@@ -18,7 +19,8 @@ const confirm = (e: Event) => {
   <bg-button type="primary" block size="large" disabled @click="confirm">
     large
   </bg-button>
-  <VirtualList />
+  <VirtualList /> -->
+  <Modal />
 
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <!-- <Test /> -->
